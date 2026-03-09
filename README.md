@@ -1,12 +1,15 @@
+# LibreLogin Redux
 
-# LibreLogin
+A fork of [LibreLogin](https://github.com/kyngs/LibreLogin) with enhanced features and improvements. LibreLogin Redux builds upon the original authentication plugin with additional functionality, including player location persistence and optimized async operations.
 
-(formerly LibrePremium) is an open-source, multiplatform, and highly customizable authentication plugin with outstanding features and API.
+(Originally based on LibrePremium) - an open-source, multiplatform, and highly customizable authentication plugin with outstanding features and API.
 
 # Quick information
 
 <img src="https://img.shields.io/badge/Java%20version-%2017+-blue?style=for-the-badge&logo=java&logoColor=white"
 alt="Plugin requires Java 17 or newer"></img>
+<img src="https://img.shields.io/badge/Minecraft%20version-%201.21.1+-green?style=for-the-badge&logo=minecraft&logoColor=white"
+alt="Plugin supports Minecraft 1.21.1 and newer"></img>
 
 <a href="https://discord.gg/HP3CSfCv2v">
 <img src="https://img.shields.io/badge/Discord-%20SUPPORT-blue?style=for-the-badge&logo=discord&logoColor=white" 
@@ -31,14 +34,21 @@ alt="Contributors listed"></img>
 - Migration of a player's data by using one command
 - Geyser (Bedrock) support using [Floodgate](https://github.com/kyngs/LibreLogin/wiki/Floodgate)
 
+## LibreLogin Redux Enhancements
+
+- **Player Location Persistence** *(Paper only)*: Players return to their last logout location instead of spawn. Configurable per-world, with optional safety checks and age limits
+- **Floodgate Support** *(Paper only)*: Full location restoration support for Bedrock players (both linked and unlinked accounts)
+- **Async Database Operations**: All database queries are executed asynchronously to prevent main-thread blocking and lag
+- **Enhanced Minecraft Compatibility**: Updated support for Minecraft 1.21.11+
+
 ## Considerations
 
 - When using on proxy, you need to secure your limbo
 
 ## Platforms
 
-- [x] Velocity
-- [x] BungeeCord
+- [x] Velocity (half)
+- [x] BungeeCord (half)
 - [x] Paper
 
 ## References
