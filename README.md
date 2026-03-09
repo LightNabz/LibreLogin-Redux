@@ -32,8 +32,8 @@ alt="Plugin supports Minecraft 1.21.1 and newer"></img>
 
 ## Platforms
 
-- [] Velocity (partially, no Redux Enhancements)
-- [] BungeeCord (partially, no Redux Enhancements)
+- [x] Velocity (partially, no Redux Enhancements)
+- [x] BungeeCord (partially, no Redux Enhancements)
 - [x] Paper
 
 - If you happen to know two or three things about the partially supported platforms, don't hestite to pull a commit <3
