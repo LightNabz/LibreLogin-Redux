@@ -1,0 +1,17 @@
+name: "LibreLogin"
+author: "kyngs"
+version: '${version}'
+main: "xyz.kyngs.librelogin.paper.PaperBootstrap"
+api-version: "1.19"
+
+dependencies:
+  server:
+    Geyser-Spigot:
+      load: "BEFORE"
+      required: false
+    floodgate:
+      load: "BEFORE"
+      required: false
+    LuckPerms:
+      load: "BEFORE"
+      required: false

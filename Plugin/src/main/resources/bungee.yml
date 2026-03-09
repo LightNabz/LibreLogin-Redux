@@ -1,0 +1,10 @@
+name: "LibreLogin"
+author: "kyngs"
+version: '${version}'
+main: "xyz.kyngs.librelogin.bungeecord.BungeeCordBootstrap"
+softDepends:
+  - "RedisBungee"
+  - "floodgate"
+  - "LuckPerms"
+  - "Protocolize"
+  - "NanoLimboBungee"
