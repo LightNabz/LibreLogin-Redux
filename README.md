@@ -11,6 +11,7 @@ alt="Plugin supports Minecraft 1.21.1 and newer"></img>
 <a href="https://github.com/kyngs/LibreLogin/wiki">
 <img src="https://img.shields.io/badge/Documentation-555555?style=for-the-badge&logo=wikipedia" alt="Documentation on the Wiki"></img>
 </a>
+<a href="https://github.com/LightNabz/LibreLogin-Redux/releases/latest"><img src="https://img.shields.io/github/v/release/LightNabz/LibreLogin-Redux?style=for-the-badge&logo=github&logoColor=white&label=Release&color=238636" alt="Latest Release"></a>
 
 ## Basic set of features (from original LibreLogin)
 
@@ -31,15 +32,15 @@ alt="Plugin supports Minecraft 1.21.1 and newer"></img>
 
 ## Platforms
 
-- [⚠️] Velocity (partially, no Redux Enhancements)
-- [⚠️] BungeeCord (partially, no Redux Enhancements)
+- [] Velocity (partially, no Redux Enhancements)
+- [] BungeeCord (partially, no Redux Enhancements)
 - [x] Paper
 
 - If you happen to know two or three things about the partially supported platforms, don't hestite to pull a commit <3
 
 # Special thanks
 
-- [kyngs] (https://github.com/kyngs) - Original author of LibreLogin
+- [kyngs](https://github.com/kyngs) - Original author of LibreLogin
 - [FastLogin contributors](https://github.com/games647/FastLogin) - for their work, which was used as a base for the
   paper port
 
