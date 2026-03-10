@@ -26,7 +26,11 @@ alt="Plugin supports Minecraft 1.21.1 and newer"></img>
 ## LibreLogin Redux Enhancements
 
 - **Player Location Persistence** *(Paper only)*: Players return to their last logout location instead of spawn. Configurable per-world, with optional safety checks and age limits
+![saveslocationjava](./demos/saveslocationdemo.gif)
+
 - **Better Floodgate Support** *(Paper only)*: Full location restoration support for Bedrock players (both linked and unlinked accounts)
+![saveslocationbe](./demos/bedrockdemo.gif)
+
 - **Async Database Operations**: All database queries are executed asynchronously to prevent main-thread blocking and lag
 - **Enhanced Minecraft Compatibility**: Updated support for Minecraft 1.21.11+
 
